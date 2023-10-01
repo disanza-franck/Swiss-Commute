@@ -1,6 +1,6 @@
 # Swiss Daily Commute Data Visualization
 
-This repository contains a data visualization project that focuses on the daily commute of people in Switzerland, segmented by each region. The primary goal of this project is to visualize and analyze the daily kilometers traveled by individuals in different Swiss regions, using a choropleth map and a stacked bar graph. The data used for this project is sourced from [insert data source here].
+This repository contains a data visualization project that focuses on the daily commute of people in Switzerland, segmented by each region. The primary goal of this project is to visualize and analyze the daily kilometers traveled by individuals in different Swiss cantons, using a choropleth map and a stacked bar graph.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -15,7 +15,7 @@ The daily commute is a critical aspect of people's lives, and understanding comm
 
 ## Project Details
 ### Choropleth Map
-The choropleth map displays the amount of kilometers traveled in a day by residents in different Swiss regions. It uses color intensity to represent the volume of daily commute, with darker colors indicating higher values. The map is created using the [Folium](https://python-visualization.github.io/folium/) library in Python.
+The choropleth map displays the amount of kilometers traveled in a day by residents in different Swiss cantons. It uses color intensity to represent the volume of daily commute, with darker colors indicating higher values. The map is created using the [Folium](https://python-visualization.github.io/folium/) library in Python.
 
 ![image](https://github.com/disanza-franck/Swiss-Commute/assets/146677173/f1377187-97f3-48c3-a638-1cc385d56d6e)
 
@@ -31,8 +31,8 @@ The stacked bar graph provides a breakdown of daily commute distances by differe
 - [Matplotlib](https://matplotlib.org/)
 
 ## Data Sources
-### GeoJSON File for Swiss Regions
-The GeoJSON file for Swiss regions can be obtained from [Cartography Vectors](https://cartographyvectors.com/map/1522-switzerland-with-regions). Download and place the GeoJSON file in the appropriate directory of this project.
+### GeoJSON File for Swiss Cantons
+The GeoJSON file for Swiss cantons can be obtained from [Cartography Vectors](https://cartographyvectors.com/map/1522-switzerland-with-regions). Download and place the GeoJSON file in the appropriate directory of this project.
 
 ### Daily Commute Dataset
 The dataset containing daily commute information is obtained from the Swiss Federal Statistical Office (BFS) and can be found at [BFS Dataset](https://www.bfs.admin.ch/bfs/fr/home/statistiques/catalogues-banques-donnees/tableaux.assetdetail.24025445.html). Download the dataset and place it in the data directory of this project.
