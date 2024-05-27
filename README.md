@@ -8,7 +8,6 @@ This repository contains a data visualization project that focuses on the daily 
 - [Technologies Used](#technologies-used)
 - [Data Sources](#data-sources)
 - [Results](#results)
-- [License](#license)
 
 ## Introduction
 The daily commute is a critical aspect of people's lives, and understanding commuting patterns can provide valuable insights into transportation infrastructure, environmental impact, and regional disparities. This project visualizes Swiss daily commute data using a choropleth map and a stacked bar graph to give viewers a comprehensive overview of daily commuting patterns in Switzerland.
@@ -39,6 +38,3 @@ The dataset containing daily commute information is obtained from the Swiss Fede
 
 ## Results
 The visualizations in this project offer valuable insights into Swiss daily commuting patterns, providing an easy-to-understand representation of regional differences and the modes of transportation preferred by residents.
-
-## License
-This project is licensed under the [MIT License](LICENSE). You are free to use and modify this project for your own purposes, but please ensure that you adhere to the terms of the license and give appropriate credit.
